@@ -47,7 +47,7 @@ label{
 	margin: 2%;
 }
 
-input[type=text],input[type=number],input[type=tel]{
+input[type=text],input[type=number],input[type=tel],input[type=email]{
     width: 100%;
     padding: 5%;
     border: 2px solid black;
@@ -107,7 +107,7 @@ input[type=submit]{
   }
   input[type=tel],
   input[type=text],
-  input[type=date] {
+  input[type=email] {
     width: 100%; 
   }
   .col-25,.col-75,input[type=submit] {
