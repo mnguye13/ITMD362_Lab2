@@ -63,14 +63,15 @@ input[type=submit]{
 	 margin-top: 5%
 	 
 }
-
-@media screen and (max-width: 700px) {
+/* Mobile first css */
+/*
+@media screen and (max-width: 1024px) {
 	.col-25,.col-75,input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
 	.center,.label{
-		font-size: 5vw;
+		font-size: 2vw;
 	}
 	.container{
 	border: 2px solid black;
@@ -80,14 +81,11 @@ input[type=submit]{
 	background-color: #DDDDDD;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	
-}
+	}
 
-}
+}*/
 
-/* Mobile first css */
-/*
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px){
   form {
     margin: 0 0 5px 0;
     width: 100%;
@@ -97,27 +95,43 @@ input[type=submit]{
 	  width: 100%;
     float: none;
   }
-  
+  /*
   label {
     width: 100%;
     text-align: center;
-  }
+  }*/
  
   form > fieldset {
-    width: 80%;
+    width: 100%;
     float: none;
   }
-  
-  input[type=email],
+  input[type=tel],
   input[type=text],
   input[type=date] {
-    width: 95%; 
+    width: 100%; 
   }
+  .col-25,.col-75,input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+	.center,.label{
+		font-size: 3vw;
+	}
+	.container{
+	border: 2px solid black;
+	padding: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #DDDDDD;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	}
 }
+
 @media screen and (max-width: 960px) {
   form > label,
 	legend {
   	text-align: center;
     width: 100%;
   }
-}*/
+}
