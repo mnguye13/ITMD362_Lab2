@@ -47,7 +47,7 @@ label{
 	margin: 2%;
 }
 
-input[type=text],input[type=number]{
+input[type=text],input[type=number],input[type=tel]{
     width: 100%;
     padding: 5%;
     border: 2px solid black;
